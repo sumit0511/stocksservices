@@ -1,0 +1,13 @@
+Step 1: Download and UnZip the Project
+Step 2: Import the Project in IntelliJ IDEA
+Step 3: Run the Application
+Step 4: Csv file is already there in the project.
+Step 5: Parsing of file can be done using a cronjob, so that every request, parsing can be avoided.
+Step 6: now Call another API for (http://localhost:8080/api/stock/averageCloseRateOverPeriod?month=6&year=72&day=2)
+
+As per my understanding the Response for averageCloseRate over the specified period.
+
+1. If user passes the request parameter as day, month and year, then close rate of that day is returned
+2. If user passes the request parameter as month and year, then close rate of all the days in that month is returned.
+3. If user passes the request parameter as year, then month wise average close rate for that year is returned.
+
