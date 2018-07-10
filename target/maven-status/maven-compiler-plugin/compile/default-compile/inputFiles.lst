@@ -1,4 +1,5 @@
 C:\Users\Sumit Sachdeva\Downloads\stocksservices\src\main\java\com\stock\stockdetails\StockDetailsApplication.java
 C:\Users\Sumit Sachdeva\Downloads\stocksservices\src\main\java\com\stock\stockdetails\controller\StockDetailsController.java
 C:\Users\Sumit Sachdeva\Downloads\stocksservices\src\main\java\com\stock\stockdetails\model\Stock.java
-C:\Users\Sumit Sachdeva\Downloads\stocksservices\src\main\java\com\stock\stockdetails\service\impl\StockService.java
+C:\Users\Sumit Sachdeva\Downloads\stocksservices\src\main\java\com\stock\stockdetails\service\StockService.java
+C:\Users\Sumit Sachdeva\Downloads\stocksservices\src\main\java\com\stock\stockdetails\service\CsvStockParser.java

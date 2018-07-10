@@ -1,0 +1,3 @@
+com\stock\stockdetails\service\StockServiceTest.class
+com\stock\stockdetails\controller\StockDetailsControllerTest.class
+com\stock\stockdetails\service\CsvStockParserTest.class

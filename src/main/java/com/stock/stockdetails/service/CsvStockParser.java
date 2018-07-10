@@ -24,12 +24,9 @@ public class CsvStockParser {
         Map<String, Map<String, Map<String,  String>>> yearMap = new HashMap<>();
 
         try(CSVReader csvReader = new CSVReader(new FileReader(csvFile), ',', '\'', 1)) {
-            String[] row;
             List<String[]> content=csvReader.readAll();
-            for (Object object : content)
+            for (String[] row : content)
             {
-                row = (String[]) object;
-                logger.info("Date=" + row[0] + " , CloseRate = " + row[4]);
                 String[] dateArray=  row[0].split("/");
                 if (yearMap.containsKey(dateArray[2])) {
                     monthMap = yearMap.get(dateArray[2]);
@@ -52,6 +49,7 @@ public class CsvStockParser {
             }
         }
         logger.info("In ParseStockCsv Method Exit");
+        logger.info("Year Map Size"+yearMap.size());
         return yearMap;
     }
 

@@ -1,4 +1,5 @@
 com\stock\stockdetails\controller\StockDetailsController.class
 com\stock\stockdetails\model\Stock.class
-com\stock\stockdetails\service\impl\StockService.class
+com\stock\stockdetails\service\StockService.class
+com\stock\stockdetails\service\CsvStockParser.class
 com\stock\stockdetails\StockDetailsApplication.class
